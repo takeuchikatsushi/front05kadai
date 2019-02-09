@@ -1,0 +1,150 @@
+body {
+  background-color: white;
+  font-size: 14px;
+  color: #333;
+  margin: 0;
+}
+
+h1, h2, h3{
+  font-size: 20px;
+  width: 550px
+  margin: 0 auto 10px 10px;
+}
+
+h1 {
+    margin: 0 auto 10px auto;
+    width: 300px;
+    text-align:center;
+}
+
+p {
+  margin: 0 auto 20px auto;
+}
+
+
+
+
+header {
+  margin-top: 20px;
+}
+
+ .container {
+   width: 920px;
+   margin: 0 auto 40px auto;
+   background-color: white;
+ }
+
+ .header-title-area {
+   margin-top: 40px;
+   margin-bottom: 30px;
+ }
+
+.logo {
+  font-size: 32px;
+  text-align: center;
+}
+
+.header-navigation {
+  background-color: #333;
+  width: 100%;
+  padding: 10px 0 10px 0;
+  height: 30px;
+}
+
+.header-navigation :after {
+  clear: both;
+  display: block;
+  cotent: " ";
+}
+
+.header-navigation li {
+  text-style-type: none;
+  float : left;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.header-navigation li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.left-contents {
+  width: 550px;
+  float:left;
+  margin-right: 40px;
+}
+
+.right-contents {
+  width: 330px;
+  float: left;
+}
+
+.left-contents :after{
+  clear: both;
+}
+
+.right-contents :after {
+  clear: both;
+}
+
+.cards-contents {
+  height: 200px;
+}
+
+.card-contents {
+  clear: both;
+  content: " ";
+}
+
+.image-a {
+  height: 180px;
+  width:180px;
+  float: left;
+  margin-left: 40px;
+}
+
+.image-b {
+  float: left;
+  width: 50px;
+  height: 50px;
+}
+
+.image-b  :after {
+  clear: both;
+}
+
+.burogutitle {
+  color: blue;
+}
+
+.information {
+  font-size: 25px;
+  border-bottom: 1px ridge silver;
+}
+
+.day-b {
+  font-size: 12px;
+}
+
+.sanpuru {
+  font-size: 15px;
+  color: blue;
+}
+
+.copyright {
+  padding: 20px 0 60px 0;
+  color:#777;
+  text-align: center;
+}
+
+.container::after {
+  clear: both;
+  display: block;
+  content: " ";
+}
+
+main {
+  border-bottom:1px ridge silver;
+}
